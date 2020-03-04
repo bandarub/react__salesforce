@@ -1,7 +1,7 @@
 {
-  "name": "reactexpress",
+  "name": "my-dream-house",
   "version": "1.0.0",
-  "description": "Starter kit for creating React and Express apps",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "client-install": "cd client && npm install",
@@ -16,7 +16,10 @@
     "nodemon": "^1.14.6"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "concurrently": "^3.5.1",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "pg": "^7.18.2",
+    "sass-loader": "^8.0.2"
   }
 }
